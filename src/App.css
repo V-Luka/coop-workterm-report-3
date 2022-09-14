@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  background-color: #232539;
+}
+
+.particles {
+  z-index: -1;
+  position: fixed;
+}
+
+.logoImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+  padding-top: 5%;
+}
+
+.headers {
+  color: white;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: xx-large;
+  padding-top: 0.5%;
+}
+
+.internalText {
+  color: white;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: larger;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.25;
+}
+
+.report {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #232539;
+}
+
+.reportContent {
+  width: 75%;
+}
+
+.mainFooter {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.footerText {
+  display: flex;
+}
+
+.footerText ul {
+  display: flex;
+}
+
+.footerList {
+  list-style: none;
+}
+
+.footerList p {
+  padding: 3px 375px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
